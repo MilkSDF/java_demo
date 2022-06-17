@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Premain-Class: com.example.java_base.Instrument.GreetingAgent
+Can-Redefine-Classes: true
