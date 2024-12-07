@@ -14,6 +14,7 @@ public class AgentMain {
                         builder.method(ElementMatchers.named("doDispatch"))
                                 .intercept(MethodDelegation.to(DoDispatchInterceptor.class)))
                 .installOn(instrumentation);
+    
     }
     
 }
